@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+
+<div id="total"><div id="numRight"></div></div>
+<div id="wrapper">    
+    <h1>
+        <span id="num1"></span>
+        <span id="sign"></span>
+        <span id="num2"></span>
+        =
+        <input id="userAnswer" type="number"/>
+    </h1>
+    <button id="submit">Solve</button>
+    <button id="reset">Next &rarr;</button>
+    <fieldset id="chooseSign">
+    <input type="radio" name="operator" id="add" checked="checked"/><label for="add">+</label>
+    <input type="radio" name="operator" id="subtract" /><label for="subtract">&ndash;</label>
+    <input type="radio" name="operator" id="multiply" /><label for="multiply">X</label>
+    <input type="radio" name="operator" id="divide" /><label for="divide">&divide;</label>
+    </fieldset>
+</div>
+<script src="mathLab.js">
+</script>
+
+</body>
+</html>
